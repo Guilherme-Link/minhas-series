@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "series",
     "name": "minhas-series",
     "slug": "minhas-series",
     "version": "1.0.0",
@@ -20,6 +21,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ]
   }
 }
